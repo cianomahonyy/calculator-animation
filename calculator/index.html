@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/counter.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+        <div class="section1">
+            <div class="container">
+                <div class="section" id="section-1">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 id="main-header">Can your company afford a data breach?</h1>
+                        </div>
+                    </div>
+                    <div class="calculation-container">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="txtRecords" onkeypress="return isNumber(event)" type="text" placeholder="Number Of Customer Records Held">
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="txtTurnover" onkeypress="return isNumber(event)" type="text" placeholder="Annual Turnover">
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <button type="button" id="btnCalculate" onclick="calculateCost()" class="btn btn-light">Calculate</button>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div id="odometer" class="odometer">0</div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <p id="interested"> Interested? Scroll down.</p>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>

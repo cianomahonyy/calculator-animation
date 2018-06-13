@@ -1,0 +1,41 @@
+#odometer {
+    font-size: 100px;
+    margin-top:10%;
+}
+
+#txtRecords {
+    width: 300px;
+    margin-top: 20px;
+}
+
+#txtTurnover {
+    width: 300px;
+    margin-top: 20px;
+}
+
+#btnCalculate {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.background {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+#main-header {
+    color: #fff;
+    font-size: 50px;
+}
+
+.calculation-container {
+    margin-top: 50px;
+}
+
+#interested {
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 25%;
+    display: none;
+}
